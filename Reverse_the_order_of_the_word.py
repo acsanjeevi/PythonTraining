@@ -1,9 +1,9 @@
 # Reverse the order of the words in sentance
 sentance=0
-reverse_word = input()
-reverse_word = reverse_word.split()
-x=(" ".join(reverse_word[-1::-1]))
-sentance=x.replace("defeated", "lost to")
+input_word = input()
+input_word = input_word.split()
+reverse_word=(" ".join(input_word[-1::-1]))
+sentance=reverse_word.replace("defeated", "lost to")
 print(sentance)
 
 
